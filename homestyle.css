@@ -1,0 +1,48 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 40vw;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./img/book-background.jpeg") ;
+    /*to align the image properly*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color:#fff
+}
+
+.header img{
+    width: 60px;
+    float: left;
+    margin: 10px;
+}
+.login-btn
+{
+    width:100px;
+ 
+    outline:none !important;
+    border: 2px solid #fff;
+    border-radius: 50px ; 
+    background-color: transparent;
+    color:white;
+    float: right;
+    padding: 6px;
+
+}
+.header h1{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    font-size: 55px;
+
+}
+
+.header p {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 22px;
+    
+}
